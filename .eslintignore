@@ -1,0 +1,2 @@
+# avoid svg import issue
+src/react-app-env.d.ts

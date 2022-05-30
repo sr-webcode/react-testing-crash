@@ -3,7 +3,7 @@ name: "Sample Git WP Workflow"
 on:
   push:
     branches:
-      - "master"
+      - 'master'
 
 jobs:
   build:

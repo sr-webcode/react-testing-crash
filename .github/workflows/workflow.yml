@@ -20,6 +20,9 @@ jobs:
       - name: Install and build
         run: yarn install && yarn build
 
+      - name: Lint and Test
+        run: yarn lint
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:

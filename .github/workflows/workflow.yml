@@ -17,11 +17,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Install and build
-        run: yarn install && yarn build
+      - name: Install
+        run: yarn install
 
       - name: Lint and Test
         run: yarn lint
+
+      - name: Build
+        run: yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3

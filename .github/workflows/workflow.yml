@@ -1,4 +1,4 @@
-name: "Sample Git WP Workflow"
+name: Sample Git WP Workflow
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
       - name: Install and build
         run: yarn install && yarn build
 
-     - name: Deploy 🚀
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages # The branch the action should deploy to.

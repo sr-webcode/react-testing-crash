@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 // try lazy next time
 const Button: React.FC = () => {
   const [data, setData] = useState({});
   const fetchData = async () => {
-    const fetchData = (await import("./constants" /* webpackChunkName: 'Names' */)).default;
+    const fetchData = (await import('./constants' /* webpackChunkName: 'Names' */)).default;
     setData(() => fetchData);
   };
 

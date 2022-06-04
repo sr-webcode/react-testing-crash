@@ -1,6 +1,6 @@
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom';
 
-import useFetch from "@hooks/useFetch";
+import useFetch from '@hooks/useFetch';
 
 type TParam = {
   recordId: string;

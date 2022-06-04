@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 const useFetch = (url, options) => {
   const [data, setData] = useState(null);
@@ -9,7 +9,7 @@ const useFetch = (url, options) => {
     setLoading(() => true);
     fetch(url, options)
       .then((res) => {
-        if (!res.ok) throw Error("Failed to fetch data.");
+        if (!res.ok) throw Error('Failed to fetch data.');
         return res.json();
       })
       .then((res) => setData(() => res))

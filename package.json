@@ -24,6 +24,7 @@
     "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
+    "build:profile": "craco build --profile",
     "test": "craco test",
     "eject": "craco eject",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",

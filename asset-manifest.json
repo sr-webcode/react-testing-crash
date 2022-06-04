@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.beed8f16.js",
-    "Home.js": "/static/js/Home.4e396875.chunk.js",
-    "About.js": "/static/js/About.4b5a9504.chunk.js",
-    "Records.js": "/static/js/Records.492a8804.chunk.js",
-    "Record.js": "/static/js/Record.e48bccdf.chunk.js",
-    "static/js/787.87641028.chunk.js": "/static/js/787.87641028.chunk.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.beed8f16.js.map": "/static/js/main.beed8f16.js.map",
-    "Home.4e396875.chunk.js.map": "/static/js/Home.4e396875.chunk.js.map",
-    "About.4b5a9504.chunk.js.map": "/static/js/About.4b5a9504.chunk.js.map",
-    "Records.492a8804.chunk.js.map": "/static/js/Records.492a8804.chunk.js.map",
-    "Record.e48bccdf.chunk.js.map": "/static/js/Record.e48bccdf.chunk.js.map",
-    "787.87641028.chunk.js.map": "/static/js/787.87641028.chunk.js.map"
+    "main.css": "/react-testing-crash/static/css/main.073c9b0a.css",
+    "main.js": "/react-testing-crash/static/js/main.a3ec42cd.js",
+    "Home.js": "/react-testing-crash/static/js/Home.4e396875.chunk.js",
+    "About.js": "/react-testing-crash/static/js/About.4b5a9504.chunk.js",
+    "Records.js": "/react-testing-crash/static/js/Records.492a8804.chunk.js",
+    "Record.js": "/react-testing-crash/static/js/Record.e48bccdf.chunk.js",
+    "static/js/787.87641028.chunk.js": "/react-testing-crash/static/js/787.87641028.chunk.js",
+    "index.html": "/react-testing-crash/index.html",
+    "main.073c9b0a.css.map": "/react-testing-crash/static/css/main.073c9b0a.css.map",
+    "main.a3ec42cd.js.map": "/react-testing-crash/static/js/main.a3ec42cd.js.map",
+    "Home.4e396875.chunk.js.map": "/react-testing-crash/static/js/Home.4e396875.chunk.js.map",
+    "About.4b5a9504.chunk.js.map": "/react-testing-crash/static/js/About.4b5a9504.chunk.js.map",
+    "Records.492a8804.chunk.js.map": "/react-testing-crash/static/js/Records.492a8804.chunk.js.map",
+    "Record.e48bccdf.chunk.js.map": "/react-testing-crash/static/js/Record.e48bccdf.chunk.js.map",
+    "787.87641028.chunk.js.map": "/react-testing-crash/static/js/787.87641028.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.beed8f16.js"
+    "static/js/main.a3ec42cd.js"
   ]
 }

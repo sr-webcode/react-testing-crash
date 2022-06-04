@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/Home.4e396875.chunk.js","mappings":"kJAIA,UAJa,WACX,OAAO","sources":["pages/Home/index.tsx"],"sourcesContent":["const Home = () => {\n  return <div>Home</div>;\n};\n\nexport default Home;\n"],"names":[],"sourceRoot":""}

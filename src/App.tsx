@@ -1,12 +1,13 @@
-import './App.css'
-import Button from './components/Button'
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import PageRoutes from "./routes";
 
 function App() {
   return (
-    <div className='App'>
-      <Button />
-    </div>
-  )
+    <BrowserRouter>
+      <PageRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

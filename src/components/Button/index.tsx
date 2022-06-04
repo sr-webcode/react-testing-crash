@@ -1,5 +1,18 @@
+import { useState } from "react";
+
+// try lazy next time
 const Button: React.FC = () => {
-  const myFavNumber = 0
-  return <div>hi this is the button updated kudaranai!: {myFavNumber}</div>
-}
-export default Button
+  const [data, setData] = useState({});
+  const fetchData = async () => {
+    const fetchData = (await import("./constants" /* webpackChunkName: 'Names' */)).default;
+    setData(() => fetchData);
+  };
+
+  return (
+    <div>
+      <button onClick={fetchData}>this is a button</button>
+      {data && JSON.stringify(data)}
+    </div>
+  );
+};
+export default Button;

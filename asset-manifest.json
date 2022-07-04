@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/react-testing-crash/static/css/main.073c9b0a.css",
-    "main.js": "/react-testing-crash/static/js/main.a3ec42cd.js",
-    "Home.js": "/react-testing-crash/static/js/Home.4e396875.chunk.js",
+    "main.js": "/react-testing-crash/static/js/main.a7a3b786.js",
+    "Home.js": "/react-testing-crash/static/js/Home.c3260df7.chunk.js",
     "About.js": "/react-testing-crash/static/js/About.4b5a9504.chunk.js",
-    "Records.js": "/react-testing-crash/static/js/Records.492a8804.chunk.js",
-    "Record.js": "/react-testing-crash/static/js/Record.e48bccdf.chunk.js",
+    "Records.js": "/react-testing-crash/static/js/Records.8dfc0e8f.chunk.js",
+    "Record.js": "/react-testing-crash/static/js/Record.f2112248.chunk.js",
     "static/js/787.87641028.chunk.js": "/react-testing-crash/static/js/787.87641028.chunk.js",
+    "static/js/801.f9737e69.chunk.js": "/react-testing-crash/static/js/801.f9737e69.chunk.js",
     "index.html": "/react-testing-crash/index.html",
     "main.073c9b0a.css.map": "/react-testing-crash/static/css/main.073c9b0a.css.map",
-    "main.a3ec42cd.js.map": "/react-testing-crash/static/js/main.a3ec42cd.js.map",
-    "Home.4e396875.chunk.js.map": "/react-testing-crash/static/js/Home.4e396875.chunk.js.map",
+    "main.a7a3b786.js.map": "/react-testing-crash/static/js/main.a7a3b786.js.map",
+    "Home.c3260df7.chunk.js.map": "/react-testing-crash/static/js/Home.c3260df7.chunk.js.map",
     "About.4b5a9504.chunk.js.map": "/react-testing-crash/static/js/About.4b5a9504.chunk.js.map",
-    "Records.492a8804.chunk.js.map": "/react-testing-crash/static/js/Records.492a8804.chunk.js.map",
-    "Record.e48bccdf.chunk.js.map": "/react-testing-crash/static/js/Record.e48bccdf.chunk.js.map",
-    "787.87641028.chunk.js.map": "/react-testing-crash/static/js/787.87641028.chunk.js.map"
+    "Records.8dfc0e8f.chunk.js.map": "/react-testing-crash/static/js/Records.8dfc0e8f.chunk.js.map",
+    "Record.f2112248.chunk.js.map": "/react-testing-crash/static/js/Record.f2112248.chunk.js.map",
+    "787.87641028.chunk.js.map": "/react-testing-crash/static/js/787.87641028.chunk.js.map",
+    "801.f9737e69.chunk.js.map": "/react-testing-crash/static/js/801.f9737e69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.a3ec42cd.js"
+    "static/js/main.a7a3b786.js"
   ]
 }

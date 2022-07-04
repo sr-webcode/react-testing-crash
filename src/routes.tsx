@@ -7,6 +7,7 @@ const HomePage = React.lazy(() => import('./pages/Home' /* webpackChunkName: "Ho
 const AboutPage = React.lazy(() => import('./pages/About' /* webpackChunkName: "About" */));
 const RecordsListPage = React.lazy(() => import('./pages/Records' /* webpackChunkName: "Records" */));
 const RecordPage = React.lazy(() => import('./pages/Record' /* webpackChunkName: "Record" */));
+const LoginPage = React.lazy(() => import('./pages/Login' /* webpackChunkName: "Record" */));
 
 const PageRoutes: React.FC = () => (
   <React.Suspense fallback={<div>loading ...</div>}>
@@ -16,11 +17,12 @@ const PageRoutes: React.FC = () => (
         <Route path='/home' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/product' element={<AboutPage />} />
+        <Route path='/login' element={<LoginPage />} />
         <Route path='records'>
           <Route index element={<RecordsListPage />} />
           <Route path=':recordId' element={<RecordPage />} />
         </Route>
-        <Route path='/admin' element={<Layout />}>
+        <Route path='admin' element={<Layout />}>
           <Route index element={<RecordsListPage />} />
           <Route path='records'>
             <Route index element={<RecordsListPage />} />

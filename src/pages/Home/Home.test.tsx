@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Home from './index';
 
 describe('it has wow text', () => {
-  it('finds wow text', () => {
+  it('finds wow textes', () => {
     render(
       <BrowserRouter>
         <Home />
